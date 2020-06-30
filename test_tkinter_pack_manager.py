@@ -14,7 +14,7 @@ class Example(Frame):
         self.master.title('Tkinter pack manager')
 
         self.style = Style()
-        self.style.theme_use('default')
+        self.style.theme_use('clam')
 
         # 设置按钮的样式，RAISED为浮雕 borderwidth 是边框宽度
         frame = Frame(self, relief=RAISED, borderwidth=1)
